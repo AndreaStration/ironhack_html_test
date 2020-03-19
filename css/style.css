@@ -1,0 +1,25 @@
+/* text style // start  */
+*{
+    font-family: 'Prompt', sans-serif;
+}
+section {border: 1px red;}
+h1{
+    color:turquoise;
+
+}
+h2{
+color: yellow;
+}
+    h3{
+        color:blueviolet;
+    }
+    h4{
+
+    }
+h5{
+
+}
+H6{
+
+}
+/* text style // end */
