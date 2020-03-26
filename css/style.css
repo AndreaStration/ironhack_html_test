@@ -1,62 +1,90 @@
 * {
-    font-family: 'Titillium Web', sans-serif;
-  }
-  body{
-      margin: 0;
-      padding: 0;
-  }
-  section {
-    border: 1px red dotted;
-    min-height: 100vh;
-    background-color: moccasin;
-  }
-  i{
- color: midnightblue;
-  }
-  /* Text Styles // start */
-  h1 {
-    color:darksalmon;
-  }
-  h2 {
-    color: yellow;
-  }
-  h3 {
-    color:blueviolet;
-  }
-  h4 {
-  }
-  h5 {
-  }
-  h6 {
-  }
-  ul{
-list-style-type: none;
-margin: 0;
-padding: 0;
-  }
-  li{
-      display: inline;
-  }
-  /* Text Styles // end */
- /* classes // start */ 
- .bgColorSection1{
-    background-color: skyblue;
+  font-family: 'Titillium Web', sans-serif;
 }
-.bgColorSection2{
-   background-color: lightgray;
+body {
+  margin: 0;
+  padding: 0;
 }
-.bgColorSection3{
-   background-color: lightsteelblue;
+header {
+  justify-content: space-around;
 }
-.bgColorSection4{
-   background-color: lightslategray;
-   background-image: url(../img/josh-hild-QsDEa0qvk20-unsplash.jpg);
-   background-image: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+footer {
+  justify-content: space-between;
+  align-items: center;
 }
-.bgColorSection5{
-   background-color: cornsilk;
-  
+section {
+  border: 1px red dotted;
+  min-height: 100vh;
+  background-color: moccasin;
 }
-.fab fa-searchengin{color:black;}
+i {
+  color: mediumpurple;
+}
+/* Text Styles // start */
+h1 {
+  color:darksalmon;
+}
+h2 {
+  color: yellow;
+}
+h3 {
+  color:white;
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+/* Text Styles // end */
+/* CLASSES */
+.row {
+  display: flex;
+}
+.hero{
+text-align: center;
+background-image: url("../img/usgs-d-S5l_ujXLc-unsplash.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.scenterselectionCol{
+  text-align: center;
+}
+.bgColorSection1 {
+  background-color: blueviolet;
+}
+.bgColorSection2 {
+  background-color: brown;
+}
+.bgColorSection3 {
+  background-color: aquamarine;
+}
+.bgColorSection4 {
+  background-color: lavender;
+  background-image: url("../img/josh-hild-QsDEa0qvk20-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fa-searchengin {
+  color: black;
+}
+/* ID  */
+#featuresSection {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+#testmionialsection{
+  /* justify-content: center; */
+  width: 600px;
+}
