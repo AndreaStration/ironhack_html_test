@@ -69,6 +69,7 @@ a:hover{
   display: flex;
 }
 
+ .hero {
 text-align: center;
 background-image: url("../img/usgs-d-S5l_ujXLc-unsplash.jpg");
 background-position: center;
