@@ -7,6 +7,7 @@ body {
 }
 header {
   justify-content: space-around;
+  padding: 10px;
 }
 footer {
   justify-content: space-between;
@@ -39,17 +40,35 @@ h6 {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0px;
 }
 li {
   display: inline;
+  padding: 10px;
+  padding-left: 0px;
+}
+a {
+  text-decoration: none;
+  margin: 0.8em;
+}
+a:link{
+
+}
+a:visted{
+color:gray
+}
+a:hover{
+  color:red;
+  text-decoration: underline;
+  background-color: lightgray;
+  padding: 0.12em;
 }
 /* Text Styles // end */
 /* CLASSES */
 .row {
   display: flex;
 }
-.hero{
+
 text-align: center;
 background-image: url("../img/usgs-d-S5l_ujXLc-unsplash.jpg");
 background-position: center;
@@ -77,6 +96,10 @@ background-repeat: no-repeat;
 }
 .fa-searchengin {
   color: black;
+}
+.footer-menu{
+  display: block;
+  padding: 0 1.2em 1.2em 0;
 }
 /* ID  */
 #featuresSection {
